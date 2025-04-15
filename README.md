@@ -22,6 +22,6 @@ A simple database-driven Bank Management System to manage accounts, transactions
 3. Call stored procedures like:
 
 ```sql
-CALL create_account('John Doe', 'john@example.com', '9876543210', 1000.00);
+CALL create_account('Jack Sparrow', 'jack@gmail.com', '9876543210', 1000.00);
 CALL transfer_funds(1, 2, 500.00);
 SELECT * FROM bank_statements;
